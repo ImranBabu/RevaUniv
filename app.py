@@ -30,7 +30,7 @@ def reva_home():
 def access_image():
     return render_template("home.html")
 
-@app.route('/')  
+@app.route('/aws')  
 def home():
     return render_template("file_upload_to_s3.html")
 
